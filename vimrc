@@ -77,6 +77,9 @@ set t_Co=256
 "hide buffers when not displayed
 set hidden
 
+"turn off matching parenthesis, brackets, braces
+let g:loaded_matchparen=1
+
 "spell check when writing commit logs
 autocmd filetype svn,*commit* setlocal spell
 
