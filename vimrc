@@ -36,7 +36,7 @@ else
 
     set t_Co=256 "tell the term has 256 colors
 
-    colorscheme molokai
+    colorscheme desert
 endif
 
 set history=1000 "store lots of :cmdline history
@@ -60,8 +60,8 @@ set wrap! "dont wrap lines
 set linebreak "wrap lines at convenient points
 
 "display tabs and trailing spaces
-set list
-set listchars=tab:▷⋅,trail:⋅,nbsp:⋅
+"set list
+"set listchars=tab:▷⋅,trail:⋅,nbsp:⋅
 
 set backspace=indent,eol,start "allow backspacing over everything in insert mode
 
