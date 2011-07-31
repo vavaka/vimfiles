@@ -157,6 +157,10 @@ cmap w!! w !sudo tee % >/dev/null
 "mappings for run ack fast
 nnoremap <leader>a :Ack<Space>
 
+"mappings for run Command-T fast
+nnoremap <leader>n :CommandT<CR>
+nnoremap <leader>N :CommandTBuffer<CR>
+
 "mappings to insert empty lines
 nmap <leader>o o<esc>
 nmap <leader>O O<esc>
