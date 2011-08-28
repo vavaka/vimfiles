@@ -100,6 +100,9 @@ set sidescroll=1
 "hide buffers when not displayed
 set hidden
 
+"setup language settings
+set keymap=russian-jcukenwin
+
 "turn off matching parenthesis, brackets, braces
 let g:loaded_matchparen=1
 
