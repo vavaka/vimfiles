@@ -102,6 +102,8 @@ set hidden
 
 "setup language settings
 set keymap=russian-jcukenwin
+set iminsert=0
+set imsearch=0
 
 "turn off matching parenthesis, brackets, braces
 let g:loaded_matchparen=1
